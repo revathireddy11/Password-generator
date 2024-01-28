@@ -1,0 +1,61 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #1a6578;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    height: 250px;
+    margin: 100px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.display {
+    width: 400px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    background-color: white;
+    border: 2px solid #091a30;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display input {
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+}
+
+.display img {
+    cursor: pointer;
+    width: 30px;
+}
+
+.container button {
+    margin: 15px auto;
+    width: 250px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    background-color: #091a30;
+    border-radius: 10px;
+    color: white;
+    font-weight: 50;
+}
+
+.container button:hover {
+    background-color: rgb(9, 26, 48, 0.2);
+    transform: scale(1.1);
+}
